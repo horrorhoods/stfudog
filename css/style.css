@@ -1,0 +1,432 @@
+	
+	.center {
+		position:absolute;
+		top: 50%;
+		left: 50%;
+        transform: translate(-50%, -50%);
+		/*margin-top: -250px;
+		margin-left: -250px; */
+	
+	}
+
+	a { color: #FFFFFF }
+
+	a:link {
+		color: #FFFFFF;
+	}
+
+	a:visited {
+		color: #FFFFFF;
+	}
+	
+
+	a:hover {
+		color: #FFFFFF;
+	}
+
+	a:active {
+		color: #FFFFFF;
+	}
+
+	pre {
+		font-family: "Trebuchet MS (sans-serif)";
+	}
+
+	.topright {
+		position:absolute;
+		top:8px;
+		right:0px;
+	}
+
+	.centerlogin {
+		position:absolute;
+		top: 50%;
+		left: 50%;
+        transform: translate(-50%, -110%);
+		/*margin-top: -490px;
+		margin-left: -250px;*/
+	
+	}
+	
+	.centerintro {
+		position:absolute;
+		top: 50%;
+		left: 50%;
+        transform: translate(-50%, -70%);
+		/*margin-top: -490px;
+		margin-left: -250px;*/
+	
+	}
+
+	.introtext {
+		position:absolute;
+		top: 50%;
+		left: 50%;
+        transform: translate(-50%, 220%);
+		/*margin-top: -490px;
+		margin-left: -250px;*/
+	
+	}
+
+	.top {
+		position:absolute;
+		top: 10%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.textbox {
+		position:absolute;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.bottom {
+		position:absolute;
+		top: 50%;
+		left: 50%;
+        transform: translate(-50%, -10%);
+		text-align: center;
+		/*margin-top: -400px;
+		margin-left: -110px;*/
+		
+	}
+
+.glow {
+	  text-shadow:0px 0px 10px #fff; 
+}
+
+.fade-in {
+	animation: fadeIn 2s;
+}
+
+.fade-in-slow {
+	animation: fadeIn 2s;
+    animation-delay: 4s;
+}
+
+
+.b {
+    color: black;
+}
+
+.i {
+    color: red;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+        visibility: hidden;
+	}
+	
+	to {
+		opacity: 1;
+	}
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+font-size: 10px;
+}
+
+.footer-icons {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: right;
+font-size: 10px;
+}
+
+.grow { 
+transition: all .5s ease-in-out; 
+}
+
+.grow:hover { 
+transform: translate(-50%, -50%) scale(1.03);
+}
+
+.growlogin { 
+transition: all .5s ease-in-out;
+}
+
+.growlogin:hover { 
+transform: translate(-50%, -110%) scale(1.03);
+}
+
+.button {
+background-color: #000000;
+border-radius: 4px;
+border-width: 1px;
+color: white;
+padding: 5px 96px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+transition: all .2s ease-in-out;
+}
+
+.button2 {
+background-color: #000000;
+border-radius: 4px;
+border-width: 1px;
+color: white;
+text-align: center;
+text-decoration: none;
+font-size: 12px;
+transition: all .2s ease-in-out;
+padding: 5px 30px;
+width: 200px;
+margin-top: 5px;
+}
+
+.button:hover {
+background-color: #ffff;
+border-radius: 4px;
+border-width: 1px;
+color: black;
+padding: 5px 96px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}  
+
+.button2:hover {
+background-color: #ffff;
+border-radius: 4px;
+border-width: 1px;
+color: black;
+text-align: center;
+text-decoration: none;
+font-size: 12px;
+padding: 5px 30px;
+}
+
+.cf {
+   opacity: 1;
+   transition: opacity .2s ease-in-out;
+   -moz-transition: opacity .2s ease-in-out;
+   -webkit-transition: opacity .2s ease-in-out;
+   }
+
+   .cf:hover {
+      opacity: 0;
+      }
+      
+.cf2 {
+   opacity: 0;
+   transition: opacity .4s ease-in-out;
+   -moz-transition: opacity .4s ease-in-out;
+   -webkit-transition: opacity .4s ease-in-out;
+   }
+
+   .cf2:hover {
+      opacity: 1;
+      }
+      
+
+i {
+  margin-right: 15px;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.footer:hover .overlay {
+  opacity: 1;
+}
+
+
+crt::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+@keyframes flicker {
+  0% {
+  opacity: 0.27861;
+  }
+  5% {
+  opacity: 0.34769;
+  }
+  10% {
+  opacity: 0.23604;
+  }
+  15% {
+  opacity: 0.90626;
+  }
+  20% {
+  opacity: 0.18128;
+  }
+  25% {
+  opacity: 0.83891;
+  }
+  30% {
+  opacity: 0.65583;
+  }
+  35% {
+  opacity: 0.67807;
+  }
+  40% {
+  opacity: 0.26559;
+  }
+  45% {
+  opacity: 0.84693;
+  }
+  50% {
+  opacity: 0.96019;
+  }
+  55% {
+  opacity: 0.08594;
+  }
+  60% {
+  opacity: 0.20313;
+  }
+  65% {
+  opacity: 0.71988;
+  }
+  70% {
+  opacity: 0.53455;
+  }
+  75% {
+  opacity: 0.37288;
+  }
+  80% {
+  opacity: 0.71428;
+  }
+  85% {
+  opacity: 0.70419;
+  }
+  90% {
+  opacity: 0.7003;
+  }
+  95% {
+  opacity: 0.36108;
+  }
+  100% {
+  opacity: 0.24387;
+  }
+}
+
+crt::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#overlay{
+  text-align:center;
+  position: ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color:white;
+  opacity: 0;
+  -webkit-animation: fadeOut 4s;
+  animation: fadeOut 4s;
+}
+
+#fade-in{
+    -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+    animation: 6s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.0em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0em; /* Adjust as needed */
+  font-weight: 100;
+  font-size:24px;
+  animation: 
+    typing 1s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
